@@ -1,0 +1,153 @@
+/* General Reset */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Arial', sans-serif;
+}
+
+/* Body & Background */
+body {
+    background-color: #0b0c2a; /* Dark navy background */
+    color: #ffffff; /* White text */
+    line-height: 1.6;
+}
+
+/* Header */
+header {
+    background-color: #10123b;
+    padding: 20px 0;
+    text-align: center;
+    border-bottom: 4px solid #ffcc00; /* Gold accent */
+}
+
+header h1 {
+    font-size: 2.5rem;
+    color: #ffcc00; /* Gold text */
+}
+
+/* Navigation */
+nav {
+    display: flex;
+    justify-content: center;
+    gap: 30px;
+    margin-top: 10px;
+}
+
+nav a {
+    color: #ffffff;
+    text-decoration: none;
+    font-weight: bold;
+    padding: 8px 12px;
+    transition: background 0.3s, color 0.3s;
+}
+
+nav a:hover {
+    background-color: #ffcc00;
+    color: #0b0c2a;
+    border-radius: 4px;
+}
+
+/* Hero Section */
+.hero {
+    background: url('hero-bg.jpg') center/cover no-repeat; /* Replace with your image */
+    text-align: center;
+    padding: 100px 20px;
+}
+
+.hero h2 {
+    font-size: 3rem;
+    color: #ffcc00;
+    margin-bottom: 20px;
+}
+
+.hero p {
+    font-size: 1.2rem;
+    max-width: 700px;
+    margin: 0 auto;
+}
+
+/* Buttons */
+button, .btn {
+    background-color: #ffcc00;
+    color: #0b0c2a;
+    border: none;
+    padding: 12px 25px;
+    font-size: 1rem;
+    font-weight: bold;
+    cursor: pointer;
+    border-radius: 5px;
+    transition: transform 0.2s, background 0.3s;
+}
+
+button:hover, .btn:hover {
+    background-color: #e6b800;
+    transform: scale(1.05);
+}
+
+/* Content Sections */
+section {
+    padding: 60px 20px;
+    text-align: center;
+}
+
+section h3 {
+    font-size: 2rem;
+    color: #ffcc00;
+    margin-bottom: 20px;
+}
+
+/* Cards */
+.card {
+    background-color: #1a1b3f;
+    padding: 20px;
+    margin: 20px;
+    border-radius: 10px;
+    display: inline-block;
+    width: 300px;
+    transition: transform 0.3s;
+}
+
+.card:hover {
+    transform: translateY(-10px);
+}
+
+/* Footer */
+footer {
+    background-color: #10123b;
+    padding: 20px;
+    text-align: center;
+    border-top: 4px solid #ffcc00;
+}
+
+footer p {
+    color: #ffffff;
+}
+
+/* Tables */
+table {
+    border-collapse: collapse;
+    width: 100%;
+    margin-top: 20px;
+    background-color: #1a1b3f; /* dark card-like background */
+    color: #ffffff;
+    border-radius: 8px;
+    overflow: hidden;
+}
+
+th, td {
+    border: 1px solid #333;
+    padding: 10px;
+    text-align: center;
+}
+
+th {
+    background-color: #10123b; /* header row slightly darker */
+    color: #ffcc00;
+}
+
+.highlight {
+    background-color: #ffcc00; /* gold highlight */
+    color: #0b0c2a;
+    font-weight: bold;
+}
